@@ -1,0 +1,237 @@
+{
+    "luffy": {
+        "name": "Luffy",
+        "type": "rubber",
+        "hp": 70,
+        "attack": 110,
+        "defense": 80,
+        "speed": 100,
+        "moves": [
+        {
+            "name": "Gum Gum Gatling",
+            "power": 50
+        }, 
+        {
+            "name": "Gum Gum Red Hawk",
+            "power": 90
+        }, 
+        {
+            "name": "Gum Gum Battleaxe",
+            "power": 60
+        },
+        {
+            "name": "Armarment Haki",
+            "power": 0,
+            "effects": [{
+                "stat": "attack",
+                "change": 0.5
+            },
+            {
+                "stat": "defense",
+                "change": 0.5
+            }]
+        },
+        {
+            "name":"Conqueror's Haki",
+            "power": 0,
+            "effects": [{
+                "stat": "defense",
+                "change": 0.5
+            }]
+        }
+    ]
+    },
+    "zoro": {
+        "name": "Zoro",
+        "type": "swordsman",
+        "hp": 90,
+        "attack": 120,
+        "defense": 85,
+        "speed": 80,
+        "moves": [
+            {"name": "Three Sword Slash", "power": 60},
+            {"name": "Dragon Twister", "power": 75},
+            {"name": "Onigiri", "power": 50},
+            {
+                "name": "Demon Aura",
+                "power": 0,
+                "effects": [
+                    {"stat": "attack", "change": 0.6},
+                    {"stat": "defense", "change": -0.2}
+                ]
+            },
+            {
+                "name": "Blocking Stance",
+                "power": 0,
+                "effects": [
+                    {"stat": "defense", "change": 0.5}
+                ]
+            }
+        ]
+    },
+    "sanji": {
+        "name": "Sanji",
+        "type": "kicker",
+        "hp": 80,
+        "attack": 100,
+        "defense": 75,
+        "speed": 110,
+        "moves": [
+            {"name": "Collier Strike", "power": 55},
+            {"name": "Diable Jambe", "power": 70},
+            {"name": "Anti-Manner Kick", "power": 80},
+            {
+                "name": "Sky Walk",
+                "power": 0,
+                "effects": [
+                    {"stat": "speed", "change": 0.4}
+                ]
+            },
+            {
+                "name": "Cook’s Intuition",
+                "power": 0,
+                "effects": [
+                    {"stat": "defense", "change": 0.3}
+                ]
+            }
+        ]
+    },
+    "ace": {
+        "name": "Ace",
+        "type": "fire",
+        "hp": 85,
+        "attack": 115,
+        "defense": 70,
+        "speed": 105,
+        "moves": [
+            {"name": "Fire Fist", "power": 75},
+            {"name": "Fire Gun", "power": 50},
+            {"name": "Enkai", "power": 100},
+            {
+                "name": "Flame Commandment",
+                "power": 0,
+                "effects": [
+                    {"stat": "attack", "change": 0.5}
+                ]
+            },
+            {
+                "name": "Flame Wall",
+                "power": 0,
+                "effects": [
+                    {"stat": "defense", "change": 0.5}
+                ]
+            }
+        ]
+    },
+    "crocodile": {
+        "name": "Crocodile",
+        "type": "sand",
+        "hp": 95,
+        "attack": 105,
+        "defense": 90,
+        "speed": 85,
+        "moves": [
+            {"name": "Desert Spada", "power": 70},
+            {"name": "Sables", "power": 40},
+            {"name": "Hook Counter", "power": 60},
+            {
+                "name": "Sandstorm Cloak",
+                "power": 0,
+                "effects": [
+                    {"stat": "defense", "change": 0.5},
+                    {"stat": "speed", "change": 0.2}
+                ]
+            },
+            {
+                "name": "Moisture Drain",
+                "power": 0,
+                "effects": [
+                    {"stat": "hp", "change": 0.3}
+                ]
+            }
+        ]
+    },
+    "arlong": {
+        "name": "Arlong",
+        "type": "fishman",
+        "hp": 100,
+        "attack": 110,
+        "defense": 85,
+        "speed": 70,
+        "moves": [
+            {"name": "Shark Saw Slash", "power": 60},
+            {"name": "Tooth Bite", "power": 65},
+            {"name": "Water Jet", "power": 50},
+            {
+                "name": "Fish-Man Strength",
+                "power": 0,
+                "effects": [
+                    {"stat": "attack", "change": 0.5}
+                ]
+            },
+            {
+                "name": "Intimidate",
+                "power": 0,
+                "effects": [
+                    {"stat": "enemy_attack", "change": -0.3},
+                    {"stat": "enemy_defense", "change": -0.3}
+                ]
+            }
+        ]
+    },
+    "buggy": {
+        "name": "Buggy",
+        "type": "chop-chop",
+        "hp": 75,
+        "attack": 90,
+        "defense": 60,
+        "speed": 95,
+        "moves": [
+            {"name": "Chop-Chop Punch", "power": 45},
+            {"name": "Big Buggy Ball", "power": 80},
+            {"name": "Cannonball Toss", "power": 50},
+            {
+                "name": "Scatter Body",
+                "power": 0,
+                "effects": [
+                    {"stat": "evasion", "change": 0.5}
+                ]
+            },
+            {
+                "name": "Fear Tactics",
+                "power": 0,
+                "effects": [
+                    {"stat": "enemy_accuracy", "change": -0.3}
+                ]
+            }
+        ]
+    },
+    "smoker": {
+        "name": "Smoker",
+        "type": "smoke",
+        "hp": 90,
+        "attack": 100,
+        "defense": 95,
+        "speed": 90,
+        "moves": [
+            {"name": "White Snake Grab", "power": 60},
+            {"name": "Seastone Strike", "power": 70},
+            {"name": "Smoke Lasso", "power": 40},
+            {
+                "name": "Logia Form",
+                "power": 0,
+                "effects": [
+                    {"stat": "evasion", "change": 1.0}
+                ]
+            },
+            {
+                "name": "Smoke Cover",
+                "power": 0,
+                "effects": [
+                    {"stat": "enemy_accuracy", "change": -0.4}
+                ]
+            }
+        ]
+    }
+
+}

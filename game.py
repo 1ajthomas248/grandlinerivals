@@ -20,5 +20,12 @@ class Game:
             pygame.display.flip()
 
             self.clock.tick(FPS)
-        
+            
+            if self.state.nextState:
+                self.changeState(self.state.nextState)
+
         pygame.quit()
+
+    def changeState(self):
+        self.state = newState 
+        
